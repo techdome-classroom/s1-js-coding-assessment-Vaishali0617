@@ -14,7 +14,7 @@ var isValid = function(s) {
         if(map[char]){
             stack.push(char);
         } else if(char ===')' || char ===']'){
-            if (stack.length ===0 || map[])
+            if (stack.length ===0 || map[stack.pop])
         }
     }
 };
