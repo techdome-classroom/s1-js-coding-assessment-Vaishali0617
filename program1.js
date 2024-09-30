@@ -18,7 +18,7 @@ var isValid = function(s) {
                 return false;
             }
         }
-    }
+    } return stack.length;
 };
 
 module.exports = { isValid };
