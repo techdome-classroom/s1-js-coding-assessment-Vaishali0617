@@ -13,7 +13,7 @@ var isValid = function(s) {
     for (let char of s){
         if(map[char]){
             stack.push(char);
-        } else if(char ==='')
+        } else if(char ===')')
     }
 };
 
